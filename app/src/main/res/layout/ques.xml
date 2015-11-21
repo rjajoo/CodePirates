@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Check"
+        android:textSize="25sp"
+        android:id="@+id/submit_answer"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters|textPassword"
+        android:id="@+id/answer"
+        android:hint="Code"
+        android:gravity="center"
+        android:layout_above="@id/submit_answer"
+        android:textColor="#00ff00"
+        android:textSize="25sp"
+        android:background="#101010"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/answer"
+        android:layout_marginBottom="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:id="@+id/question"/>
+
+        </ScrollView>
+        </HorizontalScrollView>
+
+</RelativeLayout>

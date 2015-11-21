@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Main"
+    android:background="#000000"
+    android:id="@+id/main">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/main_next"
+        android:textColor="#00ff00"
+        android:background="#aa11aa"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to NU TECH 15\n\nQuick Instructions"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#00ff00"
+        android:id="@+id/text"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_next"
+        android:layout_below="@id/text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Instructions"
+                android:textSize="25sp"
+                android:textColor="#00ff00"/>
+
+    </ScrollView>
+
+</RelativeLayout>

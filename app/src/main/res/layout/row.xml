@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/row"
+    android:layout_gravity="center_horizontal"
+    android:padding="10dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:weightSum="100">
+
+
+        <TextView
+            android:id="@+id/sn"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"/>
+        <ImageView
+            android:id="@+id/status"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"/>
+        <TextView
+            android:id="@+id/station"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:textColor="#00ff00"
+            android:textSize="20sp"
+            android:layout_weight="55"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"/>
+
+</TableRow>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Code De Pirates "</string>
+    <string name="Instructions">
+        1. Cheating is prohibited but of course if you are not caught it won\'t be counted\n
+        2. After logging in time will start but waiting to start late will also be foolish attempt to save time\n
+        3. Password to log in will be given to you so useless tries to log in won\'t help\n
+        4. Try to avoid fast clicking here and there\n
+        5. If disqualified you can restart but then you have to revisit all stations\n
+        6. Avoid killing application or to change system settings in between\n
+        7. Have fun. Its Compulsory.\n
+        8. For help visit anytime to help center located at Amphitheater or call to given numbers\n
+        9. Report any error if there in app to any volunteer\n
+        10. Don\'t waste time reading these instructions, you will be given these instructions anyway at start of event\n\n
+        That\'s it. Best of Luck.
+    </string>
+    <string name="Rules">
+        \n
+        1. Question will be displayed in Ques tab\n
+        2. Dry run the code and find output\n
+        3. Output will give the station number\n
+        4. Find station number on Map and visit that center\n
+        5. Volunteer there will enter a code in app and check that code\n
+        6. You will be given code snippet to solve at spot\n
+        7. You will be given master code snippet on success\n
+        8. If code works next question will be generated and repeat process all over again to get all 16 snippets\n
+        9. In end rearrange all snippets to generate master code\n
+        10. Dry run master code and generate answer\n
+        11. Enter answer in box and submit\n
+        12. On success you will be given location to go or person to call and you are done\n\n
+        Good Luck
+    </string>
+    <string name="about">
+        Created by:\n\nRicha Jajoo\nChintan Shah\n\n
+        Contact for feedback/query
+    </string>
+    <string name="Oops">Ooops! Time ended\nAnd it seems that you don\'t have all master code snippets\nHence you are disqualified</string>
+    <string name="end">You got lost while finding Treasure and your ship sunk deep into ocean\n\nEnjoy this day at NU TECH cause\n\n\"Dying is the day worth living for\"</string>
+
+</resources>
